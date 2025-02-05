@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /program/
+Allow: /uploads/2023/05/
+Allow: /wp-content/uploads/2023/
+
+# Important academic pages
+Allow: /uploads/2023/05/Latest-Developments-in-Earthquake-Engineering-and-Seismology-and-their-Impact-on-New-and-Existing-Infrastructures-in-Canada-Details.docx
+
+# Make sure search engines can access everything important
+Allow: /
+
+# Add sitemap once generated
+Sitemap: https://ccee-pcee.ca/sitemap.xml
