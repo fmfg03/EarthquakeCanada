@@ -1,0 +1,11 @@
+# Preserve conference URLs
+/program/* /program/:splat 200
+/uploads/2023/05/* /uploads/2023/05/:splat 200
+/wp-content/uploads/2023/* /wp-content/uploads/2023/:splat 200
+
+# Handle pcee2023.com redirects
+https://pcee2023.com/* https://ccee-pcee.ca/:splat 301
+http://pcee2023.com/* https://ccee-pcee.ca/:splat 301
+
+# Default fallback - redirect 404s to homepage
+/* / 404
